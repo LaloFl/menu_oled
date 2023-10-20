@@ -10,8 +10,7 @@
 #   MM     ,M 8M   MM    MM YA.   ,A9 MM         MM  
 # .JMMmmmmMMM `Moo9^Yo..JMML.`Ybmd9'.JMML.     .JMML.
                                                  
-import machine, ssd1306, os, utime, framebuf
-import utils
+import machine, ssd1306, utime
 
 # Conexión con OLED
 i2c = machine.I2C(1, scl=machine.Pin(27), sda=machine.Pin(26), freq=400000)
